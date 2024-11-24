@@ -1,5 +1,3 @@
-/** @type {import('tailwindcss').Config} */
-
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'img_bg_hero': "url('../assets/bg_hero.png')",
+        'img_bg_hero': "url('/assets/bg-hero.jpg')",
       },
       colors: {
         'primary-blue': '#106EB0',
@@ -23,4 +21,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};

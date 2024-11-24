@@ -1,7 +1,13 @@
+import { SectionHero } from "@/components/SectionHero";
+import { SectionServices } from "@/components/SectionServices";
+
 
 
 export default function Home() {
   return (
-    <h1>Teste</h1>
+    <>
+      <SectionHero />
+      <SectionServices />
+    </>
   );
 }

@@ -1,4 +1,4 @@
-import IconSearch from '@/assets/icon-search.svg';
+import IconSearch from '@/../public/assets/icon-search.svg';
 import Image from 'next/image';
 
 export function Search() {
